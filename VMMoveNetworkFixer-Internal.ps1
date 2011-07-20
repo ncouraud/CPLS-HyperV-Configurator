@@ -1,5 +1,6 @@
 #Import Hyper-V Toolkit
 import-module C:\ClassResources\PS\HyperV\HyperV.psd1
+
 #Create Networks if they don't exist
 function switchprep(){
 	$switch = Get-VMSwitch
